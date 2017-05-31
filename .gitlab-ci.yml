@@ -10,5 +10,5 @@ stages:
 test_app:
   stage: test
   script:
-    - run npm install  
-    - run karma start --single-run karma.conf.js
+    - npm install  
+    - karma start --single-run karma.conf.js
