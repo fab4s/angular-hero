@@ -1,4 +1,4 @@
-image: node:4.2.2
+image: node:6.10.3
 
 cache:
   paths:
@@ -11,4 +11,3 @@ test_app:
   stage: test
   script:
     - npm install  
-    - karma start --single-run karma.conf.js
